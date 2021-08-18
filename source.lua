@@ -235,7 +235,6 @@ function Kavo.CreateLib(kavName, themeList)
     Main.Size = UDim2.new(0, 525, 0, 318)
     game.TweenService:Create(Main, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
 	Size = UDim2.new(0,0,0,0),
-	Position = UDim2.new(0, Main.AbsolutePosition.X + (Main.AbsoluteSize.X / 2), 0, Main.AbsolutePosition.Y + (Main.AbsoluteSize.Y / 2))
 	}):Play()
     MainCorner.CornerRadius = UDim.new(0, 4)
     MainCorner.Name = "MainCorner"
